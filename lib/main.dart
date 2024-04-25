@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:measurer/home.page.dart';
+import 'package:measurer/instructions_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home:  InstructionsPage(),
     );
   }
 }

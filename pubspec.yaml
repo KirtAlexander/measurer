@@ -28,11 +28,17 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter_blue: ^0.8.0
+
+
+  # flutter_blue: 
+  get:
+  permission_handler:
+  flutter_reactive_ble:
   collection: ^1.15.0
   geolocator: ^7.6.2 
   geocoding: ^2.0.1
   http: ^0.13.3
+  charts_flutter: ^0.12.0
   flutter:
     sdk: flutter
 
